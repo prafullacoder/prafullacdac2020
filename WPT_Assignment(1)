@@ -1,0 +1,197 @@
+Day 1: HTML Basics
+Downloads: IDE: Notepad++, Browser
+Assignment 1:
+Design a Web page for your Bio-data. You must add the following sections
+• Personal details
+• Family details
+• Educational Qualifications
+• Extra-Curricular Activities
+• Strength and Weakness
+
+ANS
+html program
+
+<html>
+<head></head>
+<style>
+img{
+	display:block;
+	margin-left:auto;
+	margin-right: 100px;
+	width: 12%;
+	height: 200px;
+}
+</style>
+<body bgcolor = "pink">
+<img src ="C:\Users\Prafulla\Desktop\html files\prafull.jpg"align="right"></img>
+<h2 style= "text-align:center">Prafulla Prakash Gaikwad</h2>
+<h3 style= "text-align:center">gaikwadprafull7525@gmail.com</br>
+AT-varose Post-Lodhivali Tal-Khalapur Dist-Raigad At-varose Post-Lodhivali Tal-Khalapur Dist-Raigad</br>
+Mobile No-9561364838</br><br><br><br>
+</h3>
+<h2 style="border:1px solid black;width:1100px;background-color:grey" > CAREER OBJECTIVE </h2>
+<p style="width:1100px">To secure a challenging position in a reputable organisation to expand my learning, knowledge, and skills. 
+Secure a responsible cereer opportunity to fully utilised my training and skills, while making a significant contribution to the
+success of the company.</p><br>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> ACADEMIC DETAILS </h2>
+<p style="width:1100px">
+<li>mechanical engineering [2019] with aggregate of 5.93 from dilkap research institute & management
+studies/mumbai university</li>
+<li>HSC [2014] with aggregate of 53% from janta junior college/ Maharashtra state board</li>
+<li>SSC [2012] with aggregate of 73% from s.n.p.vidyamandir/ marashtra state board</li>
+</p><br>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> WORK EXPERIENCE </h2>
+<p style ="width:1100px">
+Worked as jr.executive in flipkart from 01-Sep-2018 to 07-Jan-2020.<br>
+ROLE
+<li>checking the products return by the costomer.</li>
+<li>maintaining inventory of return products.</li>
+<li>looking into process of dispatch of return products.</li>
+<li>maintaining all data in Excel regarding return product.</li>
+<li>following sop for time & quality process.</li>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> PROJECT DETAILS </h2>
+PROJECT NAME = grain dust remover.<br>
+<li><b>Description :</b> remove the dust from grains without using electricity<br></li>
+<li>Duration    :</b> 15 days</li><br>
+<li>Role		: manufacturing & assembling</li><br>
+<li>Team Size   : 4</li><br>
+
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> FIELD OF INTEREST </h2>
+<li>maintenance</li>
+<li>sales</li>
+<li>production</li>
+<li>Design</li>
+<li>operations</li>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> SKILLS </h2>
+<li>ability to work in team</li>
+<li>maintaining inventory</li>
+<li>maintaining quality process</li>
+<li>convensing skills</li>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> STRENGTH & HOBBIES </h2>
+<li>To gain knowledge about machines</li>
+<li>playing cricket</li>
+<h2 style ="border:1px solid black;width:1100px;background-color:grey"> DECLARATION </h2>
+I hearby declare that the above frurnished information is authentic to the best of my knowledge.
+<br>
+Date : / / <br>
+Place : panvel <br>
+signature :
+
+
+
+
+</body>
+</html>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Assignment 2:
+Design a Web page to express your thoughts about Life journey of our dearest late Mr Rishi Kapoor or Mr Irrfan Khan.
+
+ANS
+
+html program
+
+<html>
+	<head>
+		<title>Assg1_2</title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				background:url(irfankhan2.jpg) no-repeat;
+				background-size:cover;}
+		</style>
+	</head>
+	<body>
+		<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Life journey of our dearest late Mr Irfaan Khan</h2>
+		<p style= "width:800px">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;There are few actors as impactful as Irrfan Khan. Showcasing an impeccable range of performances, Irrfan has time and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;again given us memorable characters, 
+			each one more unique than the other.
+			From Haasil to Pan Singh Tomar, Maqbool to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Lunchbox and Piku to Madaari, when it comes to Irrfan's repertoire of movies,words truly fall short. 
+			However, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Irrfan's popularity can't just be attributed to his acting alone. 
+			A self-admittedly hesitant 'star', Irrfan holds a tremendously &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mature view of cinema, art and the world we live in. 
+			He may have spent over two decades in front of the camera but &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;never for once has he lost touch with the person he was before he came under the spotlight.
+			</p>
+	</body>
+</html>
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Day 2: Links, List, Images
+Assignment 3:
+Design the webpage for your favourite Hyperlinks as follows:
+'
+ANS
+HTML PROGRAM
+
+<html>
+	<head>
+		<title> Assg3</title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				font-family:Sans-Serif;
+				background:url(img2.jpg) no-repeat;
+				background-size:cover;
+			}
+		</style>
+	</head>
+	<body>
+	<h1> &nbsp;&nbsp;&nbsp;Here are my favorite sites </h1>
+	<h3> &nbsp;&nbsp;&nbsp;Click on a name to go that page </h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.youtube.com/" background-image:url("img3.jpg");>Youtube</a></li>
+	&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+	&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.amazon.in/">Amazon</a></li>
+	&nbsp;&nbsp;&nbsp;&nbsp;<li><a href="https://www.linkedin.com/in/prafulla-gaikwad-542ab6185/">Linkedin</a></li>
+</html>
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Assignment 4:
+Design the webpage for Nested list as follows:
+
+ANS
+HTML PROGRAM
+
+<html>
+	<head>
+		<title>Assg4</title>
+		<style>
+			body{
+				margin:0;
+				padding:0;
+				background:url(internet.jpg) no-repeat;
+				background-size:cover;
+				color:white;
+				<!--<span style="color:blueviolet">your text</span>-->
+
+			}
+		</style>
+	</head>
+	<body>
+		<h1>The Best Features of the Internet</h1>
+		<ul>
+			<li>You can meet new people from countries around the world</li>
+			<li>You have access to new media as it become public
+			<ul style="list:style:type:circle;">
+				<li>New games</li>
+				<li>New application
+				<ol>
+				<li>For business</li>
+				<li>For pleasure</li></ol></li>
+				<li>Around the clock news</li>
+				<li>Search engines</li>
+				<li>Shopping</li>
+				<li>Programming
+				<ol>
+				<li>XML</li>
+				<li>java</li>
+				<li>HTML5</li>
+				<li>javaScript</li>
+				<li>New languages</li></ol></li>
+			</ul></li>
+				<li>Links</li>
+				<li>Keeping in touch with old friend</li>
+				<li>It's the techonology of the future!</li>
+		</ul>
+	</body>
+</html>
