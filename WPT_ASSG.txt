@@ -1,0 +1,111 @@
+			JavaScript Assignment 1
+
+
+//////////////////////1.WAP to illustrate implementation of functions in javascript.////////////////////
+ANS:
+	(1)addition
+function sum(a,b)
+{
+    return a+b;
+}
+sum(10,20);
+30
+
+	(2)multiplication
+function mul(a,b)
+{
+    return a*b;
+}
+mul(10,20);
+200
+
+	(3)substraction
+function sub(a,b)
+{
+    return a - b;
+}
+sub(20,10);
+10
+
+	(4)division
+function div(a,b)
+{
+    return a/b;
+}
+div(20,10);
+2
+
+	(4)division(remender)
+function div(a,b)
+{
+    return a%b;
+}
+div(20,10);
+0
+
+	5)variable scope(local and globel)
+function demo()
+{
+    var name=20;
+    console.log("name= "+name);
+}
+////////////////////
+var name=50;
+///////////////
+demo();
+o/p) name= 20
+///////////////
+console.log(name);
+o/p)	50	
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	6)fahrenheit to  Celsius conversion
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+toCelsius(100);
+37.77777777777778
+
+========================================================================
+////////////Q5)Using the forEach function defined for an array, find the sum of the array of numbers. [ function
+add_all(arr) {...} ]////////////////////////////
+ANS
+
+function sum()
+{
+    var sum=0;
+    var arr=[10,20,30,50,40];
+    for(var p in arr)
+    
+    {
+        sum=sum+arr[p];
+    }
+    return sum;
+}
+undefined
+sum();
+150
+===========================================================================================================
+////////2.WAP to illustrate the declaration of object, assignment of value and display it.///////////////////////
+ANS)
+
+var obj={
+    1:value1,
+    2:value2,
+    3:value3,
+    4:value4
+
+};
+
+
+obj[1]
+"value1"
+
+===========
+
+obj[2]
+"value2"
+===========
+obj
+{1: "value1", 2: "value2", 3: "value3", 4: "value4"}
